@@ -9,7 +9,7 @@ abi = ''
 with open("./fetch.json") as f:
     abi = json.load(f)
 web3 = Web3(Web3.HTTPProvider(
-    'https://mainnet.infura.io/v3/8714bee569e5411cab6f00d0f2efb4b4'))
+    'https://mainnet.infura.io/v3/改一下'))
 
 contract_addr = Web3.toChecksumAddress(
     '0xE26357e976Fa720E8cb743Cc74b5C8E474382501')
